@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="jr_demo:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b0ab302-7cc5-4923-98b7-94de2620f1e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../db/gxdgjj.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/悦居平台系统设计文档.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/GxdkmzjzlApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/OrderDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/OBP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/OMPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/PBP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/SwaggerArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/Swagger/SwaggerObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/CityIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/CommunityInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/DistrictInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/LpbBuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/LpbCommunity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/LpbHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/LpbImg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/LpbUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/bean/PriceTrends.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/service/ILpbService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/api/lpb/service/impl/LpbServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/AutoLogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/ValidatedAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/AutoLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/Dict.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/DictControllerJR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/DictJR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/PermissionData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/ValidatedController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/aspect/annotation/XStreamCDATA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/AutoPoiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/SwaggerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/CommonConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/CommonSendStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/ContractTypeAndActiviti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/DataBaseConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/DateConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/MiNiProgramConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/OrderType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/PaymentChannel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/constant/RentContractState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/ActivitiInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/ActuatorRedisController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/AreaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/AuditLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/CommunityManualController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/ExcelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/NewsInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/PubDictController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/PubDictValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentContractCController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentContractController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentContractRegulationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentHouseInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentImageInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentInfoFrontController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/RentInfoOrganizationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/SysCommonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/SysDataLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/SysLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/SysUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TComplainInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TNewsInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TdWorkHardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TencentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/TfCollectController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/UserBankController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/WisdomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/ZhAPIController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/operate/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/order/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/order/PayResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/organization/OrgController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/organization/OrgRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/organization/OrgUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/personal/MapController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/personal/PerRecordInfoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/personal/TSeeHouseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/personal/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/supervise/SuperRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/supervise/SuperUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/controller/supervise/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ActivitiInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ActivitiNodeInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ActivitiTaskHisInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ActivitiTaskInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/AreaEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/AuditLogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/CaREntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/CommunityManualEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractOrderEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateCA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateCB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateCBA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateCC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/ContractTemplateCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/GoodsOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/PerRecordInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/PerTenantInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/PubBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/PubDict.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/PubDictValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentContractOffline.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentContractOfflineAnnex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentContractOfflineLodger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentHouseInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentImageInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/RentInfoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysDataLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysOpenapiAccesstoken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysOrganization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysRoleArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysRoleOrganization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysRolePermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysSmsLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysSuperviseOrg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysUserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/SysUserToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TComplainInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TNewsInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TSeeHouse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TdArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TdCommunity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TdPrecinct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TdWorkHard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TfCollectEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/TsFileInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/entity/UserBank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/OrderStatueEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/OrgTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/OrgUserTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/SmsTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/UserRoleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/UserRoleTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/UserStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/UserTokenTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/UserTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/enums/WechatPayPlaceOrderResultEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/exception/CustomErrorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/exception/GxdGjjException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/exception/GxdGjjExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/exception/RedisConnectException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/init/InitPay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ActivitiInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ActivitiNodeInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ActivitiTaskHisInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ActivitiTaskInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/AreaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/AuditLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/CommunityManualMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractOrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateBMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCBAMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCBMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCCMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCDMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ContractTemplateCMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/ExcelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/MapLocationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/OrderMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/PaymentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/PerRecordInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/PerTenantInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/PubDictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/PubDictValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentContractMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentContractOfflineAnnexMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentContractOfflineLodgerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentContractOfflineMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentContractRegulationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentHouseInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentImageInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/RentInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysDataLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysOpenapiAccesstokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysOrganizationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysPermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysRoleAreaMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysRoleOrganizationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysRolePermissionMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysSmsLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysSuperviseOrgMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysUserRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/SysUserTokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TComplainInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TNewsInfoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TSeeHouseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TdCommunityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TdPrecinctMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TdWorkHardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TestMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/TfCollectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/mapper/UserBankMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/AccessTokenModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/BankCardModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/BranchOrgModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/BranchUserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ConfirmRentContractModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateAModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateBModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCAModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCBAModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCBModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCCModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCDModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ContractTemplateCModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/DeleteBankCardModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/HousingCheckExcelModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/MapLocationModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/MenuModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/OrderPayModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/OrgListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/OrgUserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/PayResultModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/PubDictValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/ReadttiFins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/RentContractListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/RentContractModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/RentContractRegulationOfflineListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/RentContractRegulationOnlineListModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractFourModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractOneModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineMiniProgramModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineOneModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineThreeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineThreeModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineTwoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractRegulationOfflineTwoModels.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractThreeMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SaveRentContractTwoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SigningModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/StoreModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/StoreUserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SuperUserModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/SysLoginModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/TComplainInfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WatchWorkFirst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WechatPayNotifyModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WechatPayPlaceOrderModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WorkHardFirst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WorkHardNum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/WorkHardSec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/model/tdRentInfoModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/query/QueryCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/query/QueryRuleEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/AreaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/AuditLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/CommunityManualService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ContractTemplateFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/Four.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IActivitiInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IActivitiNodeInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IActivitiTaskHisInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IActivitiTaskInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IContractTemplateAService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IContractTemplateBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IContractTemplateCService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IExcelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IMapLocationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IOrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPayResultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPcQqService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPcWxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPerRecordInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPerTenantInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPubDictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IPubDictValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IRentContractRegulationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IRentContractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysDataLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysOpenapiAccesstokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysOrganizationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysRoleAreaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysRoleOrganizationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysRolePermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysSmsLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysSuperPermissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysSuperRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysSuperUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysSuperviseOrgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysUserRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ISysUserTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ITComplainInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ITNewsInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ITSeeHouseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ITdWorkHardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/ITestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IUserBankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/IWxMiniService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/One.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/RedisService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/RentHouseInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/RentImageInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/RentInfoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/TfCollectService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/Three.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/Two.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ActivitiInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ActivitiNodeInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ActivitiTaskHisInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ActivitiTaskInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/AreaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/AuditLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/CommunityManualServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateAServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateBServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateCServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateFactoryA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateFactoryB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ContractTemplateFactoryC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/ExcelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/FactoryForContractTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/HttpToMiddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/MailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/MapLocationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PayResultServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PcQqServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PcWxServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PerRecordInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PerTenantInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PubDictServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/PubDictValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RedisServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RentContractRegulationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RentContractServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RentHouseInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RentImageInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/RentInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysDataLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysOpenapiAccesstokenServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysOrganizationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysPermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysRoleAreaServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysRoleOrganizationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysRolePermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysSmsLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysSuperPermissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysSuperRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysSuperUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysSuperviseOrgServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/SysUserTokenServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TComplainInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TNewsInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TSeeHouseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TdWorkHardServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TestServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/TfCollectServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/UserBankServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/service/impl/WxMiniServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/shiro/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/shiro/JwtPermissionsAuthorizationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/shiro/JwtToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/shiro/ResourceCheckFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/shiro/ShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/task/ContractTimeOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/task/RefreshOpenApiAccessToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/task/ScheduledTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/task/TradeIdSequenceTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/AESCodec.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/AESECBPKCS7Padding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/AESUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/BrowserType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/BrowserUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/ClassToMapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CommMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CookieUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CreatePdfUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CreateWordUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/CustStateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/Exceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/FastJsonUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/FloorLevelUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/GetAround.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/GetPKIdUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/GetSixCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/HttpRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/IPUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/ImageCompressionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/ImageServerUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/LTOC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/LiangRater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/MapUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/MyClassLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/OrderStateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/OsInfoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PasswordUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PathUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PdfConversionDataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PdfUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PointToDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PropertiesLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/PubMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/RandomStrg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/RedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/SmsUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/SpringContextUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/TransTool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/TxlBuildCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/UUIDGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/WGSToGCJ02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/WXBizDataCrypt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/WebUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/WordAndPdfUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/YouBianCodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/oConvertUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/TradeIdUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/ConfigUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/PayCommonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/XMLUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/XStreamFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/pay/wechatpay/XStreamUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/utils/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ActivitiNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ActivitiNodeRunVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ActivitiNodeTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/AreaVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/AuditLogVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateAVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateBVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCAVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCBAVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCBVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCCVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCDVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ContractTemplateCVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/HousingCheckExcelVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/MailVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/OrderInfoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/OrderPayVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/OrderVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/PictureVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/PublishedRentInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RedisInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractListVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractOfflineAnnexVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractOfflineLodgerVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractRegulationOfflineInfoVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractRegulationOfflineListVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractRegulationOnlineListVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentContractVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentInfoDetailOrganization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentInfoOrganizationVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentInfoVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/RentOrderVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/ResponseBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/TradeDetailVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/UserBankVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/gxd/gxdkmzjzl/vo/WechatPayPlaceOrderVO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/com/lrinfo/fpcore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/config/package.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/fdfs_client.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/font/SIMFANG.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/font/SIMHEI.TTF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/font/SIMSUN.TTC" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/img/c9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/commons-codec-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/commons-pool-1.5.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/finger-print-verification.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/jackson-annotations-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/jackson-core-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/jackson-databind-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/jackson-dataformat-xml-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/jackson-module-jaxb-annotations-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/junit-4.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/postmsg-ump-5.3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/protobuf-java-2.4.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/stax2-api-3.1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/words.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/xpp3_min-1.1.4c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/lib/xstream-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback-spring-test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ActivitiInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ActivitiNodeInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ActivitiTaskHisInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ActivitiTaskInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/AreaMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/AuditLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/CommunityManualMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractOrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateAMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCAMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCBAMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCBMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCCMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCDMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ContractTemplateCMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/ExcelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/MapLocationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/OrderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/PerRecordInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/PerTenantInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/PubDictMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/PubDictValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/RentContractMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/RentContractRegulationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/RentHouseInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/RentImageInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/RentInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysDataLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysOpenapiAccesstokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysOrganizationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysPermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysRoleAreaMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysRoleOrganizationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysRolePermissionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysSmsLogMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysSuperviseOrgMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysUserRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/SysUserTokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TComplainInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TNewsInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TSeeHouseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TdWorkHardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TestMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TfCollectMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/TsFileInfoMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/mapper/UserBankMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/昆明市住房租赁合同个人模板.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/resources/wxinfo.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/gxd/gxdkmzjzl/GxdyjApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/gxd/gxdkmzjzl/MailServiceTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/test/java/com/gxd/gxdkmzjzl/testone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../测试/fileupload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../测试/测试跨域请求.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="C:\jr\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jr_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jr_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jr_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jr_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jr_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jr_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.241" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.241" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="jr_demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/jr_demo_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_241_jr_demo" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51146" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="jr_demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b0ab302-7cc5-4923-98b7-94de2620f1e0" name="Default Changelist" comment="" />
+      <created>1584940510397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584940510397</updated>
+      <workItem from="1584940511955" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="321000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
